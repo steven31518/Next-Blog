@@ -1,12 +1,10 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-
 import { redirect } from "next/navigation";
+import { useEffect } from "react";
 
 export default function ClientPage() {
-  const [count, setCount] = useState(0);
-   
+  useEffect(() => {}, []);
   return (
     <div>
       <h1>page</h1>
